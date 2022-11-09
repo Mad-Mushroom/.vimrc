@@ -4,7 +4,7 @@ This is my .vimrc File
 
 The File:
 
-```
+```vimscript
 " VIM .vimrc
 " Made by MadMushroom
 
