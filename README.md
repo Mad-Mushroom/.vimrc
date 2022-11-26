@@ -8,10 +8,10 @@ The File:
 " VIM .vimrc
 " Made by MadMushroom
 
-syntax on
 set number
-set mouse=a
 set path+=**
+syntax on
+set mouse=a
 set noshowmode
 set laststatus=2
 set backspace=indent,eol,start
@@ -32,6 +32,11 @@ let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ }
 
+" Some custom shortcuts :)
+:nnoremap <C-Y> :Vexplore <Return>
+:nnoremap <C-X> :Sexplore <Return>
+:nnoremap <C-W> :w <Return>
+:nnoremap <C-Q> :q <Return>
 
 " May need for vim (not neovim) since coc.nvim calculate byte offset by count
 " utf-8 byte sequence.
@@ -187,4 +192,3 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
-```
