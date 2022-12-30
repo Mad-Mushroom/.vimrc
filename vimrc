@@ -12,7 +12,7 @@ set tags=tags
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'itchyny/lightline'
+Plug 'itchyny/lightline.vim'
 Plug 'neoclide/coc.nvim', {'branch' : 'release'}
 Plug 'morhetz/gruvbox'
 
